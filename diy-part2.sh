@@ -15,3 +15,9 @@ sed -i 's/192.168.1.1/10.0.0.4/g' package/base-files/files/bin/config_generate
 
 # Add luci-app-filetransfer
 git clone https://github.com/zxl78585/luci-app-filetransfer.git package/luci-app-filetransfer
+
+# Add luci-app-diskman
+mkdir -p package/luci-app-diskman && \
+wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/applications/luci-app-diskman/Makefile -O package/luci-app-diskman/Makefile
+mkdir -p package/parted && \
+wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/parted/Makefile
