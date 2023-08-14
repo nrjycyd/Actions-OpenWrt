@@ -22,5 +22,5 @@ wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/applicatio
 mkdir -p package/parted && \
 wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/parted/Makefile
 
-# Add luci-app-unblockmusic
-git clone https://github.com/maxlicheng/luci-app-unblockmusic.git package/luci-app-unblockmusic
+# Add luci-app-unblockneteasemusic
+git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
