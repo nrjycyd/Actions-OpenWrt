@@ -24,5 +24,4 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-ap
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 
 # Add luci-app-smartdns
-rm -rf feeds/luci/applications/luci-app-smartdns
-git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+#rm -rf feeds/luci/applications/luci-app-smartdns
