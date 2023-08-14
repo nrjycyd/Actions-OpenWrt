@@ -24,9 +24,7 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-ap
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 
 # Add luci-app-smartdns
-#rm -rf feeds/packages/net/smartdns
-#git clone https://github.com/pymumu/openwrt-smartdns.git feeds/packages/net/smartdns
-#./scripts/feeds install package -a
-#rm -rf feeds/luci/applications/luci-app-smartdns
-#git clone https://github.com/pymumu/luci-app-smartdns.git feeds/luci/applications/luci-app-smartdns
-#./scripts/feeds install luci -a
+rm -rf feeds/packages/net/smartdns
+git clone https://github.com/pymumu/openwrt-smartdns.git feeds/packages/net/smartdns
+rm -rf feeds/luci/applications/luci-app-smartdns
+git clone https://github.com/pymumu/luci-app-smartdns.git feeds/luci/applications/luci-app-smartdns
