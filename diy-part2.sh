@@ -13,6 +13,10 @@
 # Modify default IP
 sed -i 's/192.168.1.1/10.0.0.4/g' package/base-files/files/bin/config_generate
 
+# Add luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
+
 # Add luci-app-filetransfer
 git clone https://github.com/zxl78585/luci-app-filetransfer.git package/luci-app-filetransfer
 
