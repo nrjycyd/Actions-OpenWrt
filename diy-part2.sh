@@ -24,7 +24,7 @@ sed -i 's/192.168.1.1/10.0.0.4/g' package/base-files/files/bin/config_generate
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 
 # Add luci-app-smartdns
-#rm -rf feeds/packages/net/smartdns
-#git clone https://github.com/pymumu/openwrt-smartdns.git feeds/packages/net/smartdns
-#rm -rf feeds/luci/applications/luci-app-smartdns
-#git clone https://github.com/pymumu/luci-app-smartdns.git feeds/luci/applications/luci-app-smartdns
+rm -rf feeds/packages/net/smartdns
+git clone https://github.com/pymumu/openwrt-smartdns.git feeds/packages/net/smartdns
+rm -rf feeds/luci/applications/luci-app-smartdns
+git clone https://github.com/pymumu/luci-app-smartdns.git feeds/luci/applications/luci-app-smartdns
