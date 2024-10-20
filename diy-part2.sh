@@ -21,7 +21,7 @@ sed -i 's/192.168.1.1/10.0.0.4/g' package/base-files/files/bin/config_generate
 #git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 
 # Add luci-app-unblockneteasemusic
-git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
+# git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 
 # Add luci-app-smartdns
 rm -rf feeds/packages/net/smartdns
